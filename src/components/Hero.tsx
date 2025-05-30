@@ -76,7 +76,7 @@ const Hero = () => {
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="absolute -bottom-10 -right-10 bg-white p-4 rounded-lg shadow-lg max-w-xs hidden md:block"
+              className="absolute -bottom-10 -right-10 bg-white p-4 rounded-lg shadow-lg max-w-xs hidden md:block z-20"
             >
               <div className="flex items-center mb-3">
                 <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
@@ -98,7 +98,7 @@ const Hero = () => {
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="absolute -top-10 -left-10 bg-white p-4 rounded-lg shadow-lg hidden md:block"
+              className="absolute -top-10 -left-10 bg-white p-4 rounded-lg shadow-lg hidden md:block z-20"
             >
               <div className="flex items-center space-x-3 mb-2">
                 <div className="w-10 h-10 bg-primary-light rounded-full flex items-center justify-center">

@@ -23,9 +23,9 @@ const About = () => {
               <img 
                 src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                 alt="DIGILLIAN Team" 
-                className="rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl relative z-10"
               />
-              <div className="absolute -bottom-10 -right-10 bg-white p-6 rounded-xl shadow-lg hidden md:block">
+              <div className="absolute -bottom-10 -right-10 bg-white p-6 rounded-xl shadow-lg hidden md:block z-20">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary-light rounded-full flex items-center justify-center">
                     <FiTrendingUp className="text-primary" size={24} />

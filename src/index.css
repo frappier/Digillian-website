@@ -46,7 +46,7 @@
   }
   
   .card {
-    @apply p-6 transition-all duration-300 bg-white rounded-xl shadow-md hover:shadow-lg;
+    @apply p-6 transition-all duration-300 bg-white rounded-xl shadow-md hover:shadow-lg z-10;
   }
 }
 
@@ -60,4 +60,29 @@
 
 .service-card:hover .service-icon {
   @apply text-primary;
+}
+
+/* Add z-index utility classes */
+.z-1 {
+  z-index: 1;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
 }
